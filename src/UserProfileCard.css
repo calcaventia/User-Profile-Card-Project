@@ -94,7 +94,7 @@ h2 {
 h4 {
   padding: 0 0 3% 0;
   text-align: center;
-  color: #f2e3db96;
+  color: #f2e3dbd3;
   font-weight: 100;
   font-size: 100%;
 }
@@ -135,4 +135,23 @@ h4 {
   margin: 0 auto;
   padding: 2%;
   border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .user-profile-card {
+    max-width: 90%;
+    max-height: 100%;
+    padding: 0 15px;
+  }
+
+  #no-followers,
+  #no-following,
+  #no-posts {
+    padding: 16px;
+  }
+
+  .button-container button {
+    width: 40%;
+    font-size: 80%;
+  }
 }
